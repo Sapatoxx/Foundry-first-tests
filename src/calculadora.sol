@@ -28,13 +28,13 @@ contract calculadora {
 		emit Addition(num1_, num2_, resultado_);
 	}
     
-
     //Subtraction
 	function substraction(uint256 num1_, uint256 num2_) external returns (uint256 resultado_) {
 		resultado_= num1_-num2_;
 		resultado = resultado_;
 		emit Substraction(num1_, num2_, resultado_);
 	}
+
     //Multiplication
 	function multiplication(uint256 num1_, uint256 num2_) external returns (uint256 resultado_) {
 		resultado_= num1_*num2_;
